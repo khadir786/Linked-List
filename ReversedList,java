@@ -17,10 +17,10 @@ class ReversedList {
 /*  
 Start with the head of the linked list - the first node
  -Loop until end of the list (current is null)
-  -Keep track of the next node in original list - nextCurrent -> current.next
+  -Keep track of the next node in original list - next -> current.next
   -Change 'next' pointer of current node to point to previous node - current.next -> previous
   -Update 'previous' to be current node - previous = current
-  -Move 'current' to next node - current -> nextCurrent
+  -Move 'current' to next node - current -> next
   -End loop and return new head which will be previous node
 */
 
